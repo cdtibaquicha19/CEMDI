@@ -22,7 +22,7 @@
     <div class="container-fluid"></div>
       <div class="row">
   <div  class="col-md-6" sty>
-          <video style="position:fixed; width:50%;" src="img/pexels-artem-podrez-6823847.mp4" autoplay="true" muted="true" loop="true" poster="img/pexels-artem-podrez-6823847.mp4"></video>
+          <video style="position:fixed; width:50%;" src="http://sistema.cemdi.com.co/img/pexels-artem-podrez-6823847.mp4" autoplay="true" muted="true" loop="true" poster="img/pexels-artem-podrez-6823847.mp4"></video>
   
       </div>
 

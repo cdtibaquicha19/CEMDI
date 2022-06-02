@@ -19,4 +19,4 @@
 		$calendar->delete($id, $rep_id, $method);
 	}
 
-?>
+?

@@ -1,8 +1,8 @@
 <?php
 
 
-    # Clase conexion: permite conectar a la base de datos y ejecutar consultas sql
-	$con = mysqli_connect("localhost","cemdicom_siscem","2404@Cemdi2022","cemdicom_sis_cemdi");
+  # Clase conexion: permite conectar a la base de datos y ejecutar consultas sql
+	$con = mysqli_connect("localhost","root","","cemdicom_sis_cemdi");
 	mysqli_set_charset($con,'utf8'); 
 	
 
@@ -11,8 +11,8 @@
 
         # Atributos de la clase conexion
         private $mysqli = '';
-        private $usuario = 'cemdicom_siscem';
-        private $clave = '2404@Cemdi2022';
+        private $usuario = 'root';
+        private $clave = '';
         private $server = 'localhost';
         private $db = 'cemdicom_sis_cemdi';
 

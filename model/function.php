@@ -1,10 +1,10 @@
 <?php
-$con = mysqli_connect("localhost","cemdicom_siscem","2404@Cemdi2022","cemdicom_sis_cemdi");
+$con = mysqli_connect("localhost","root","","cemdicom_sis_cemdi");
 mysqli_set_charset($con,'utf8'); 
 
 function db_query($query) {
     
-    $connection = mysqli_connect("localhost","cemdicom_siscem","2404@Cemdi2022","cemdicom_sis_cemdi");
+    $connection = mysqli_connect("localhost","root","","cemdicom_sis_cemdi");
     mysqli_set_charset($connection,'utf8'); 
     $result = mysqli_query($connection,$query);
     return $result;
