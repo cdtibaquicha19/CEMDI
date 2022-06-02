@@ -2,7 +2,7 @@
 $host = "localhost";
 $dbuser = "root";
 $dbpwd = "";
-$db = "bas_joaking";
+$db = "cemdicom_sis_cemdi";
 
 $connect = mysqli_connect ($host, $dbuser, $dbpwd);
 	if(!$connect)

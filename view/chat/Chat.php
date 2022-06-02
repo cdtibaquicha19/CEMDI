@@ -1,9 +1,9 @@
 <?php
 class Chat{
     private $host  = 'localhost';
-    private $user  = 'bihaosas_rootsandra';
-    private $password   = "=j9F%7yUL-av";
-    private $database  = "bihaosas_sisandra";      
+    private $user  = 'root';
+    private $password   = "";
+    private $database  = "cemdicom_sis_cemdi";      
     private $chatTable = 'chat';
 	private $chatUsersTable = 'usuarios';
 	private $chatLoginDetailsTable = 'chat_login_details';
